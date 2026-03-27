@@ -1,10 +1,8 @@
 Análise de Preços da Gasolina no Brasil – 2º Semestre de 2025
-Objetivo
 
-Este projeto tem como objetivo analisar o comportamento dos preços da gasolina no Brasil durante o segundo semestre de 2025, utilizando dados públicos da ANP.
+Objetivo: Este projeto tem como objetivo analisar o comportamento dos preços da gasolina no Brasil durante o segundo semestre de 2025, utilizando dados públicos da ANP.
 
 A análise busca:
-
 Identificar padrões de preço ao longo do tempo
 Comparar diferenças regionais e estaduais
 Avaliar desigualdade dentro dos mercados locais
@@ -15,15 +13,15 @@ Pandas
 Matplotlib
 Seaborn
 Jupyter Notebook
-Tratamento de Dados
 
+Tratamento de Dados:
 Foram aplicadas etapas de limpeza e padronização:
-
 Normalização de colunas
 Conversão de tipos (datas e valores)
 Remoção de valores nulos
 Filtro de amostragem (mínimo de 100 postos por dia)
 Exclusão de outliers extremos (> R$ 8,50)
+
 Análises Realizadas
 1. Evolução Temporal (Média vs Mediana)
 
